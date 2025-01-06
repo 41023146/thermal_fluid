@@ -1,0 +1,76 @@
+import streamlit as st
+
+st.title("實驗四. 管路磨擦與閥特性實驗")
+
+st.divider()
+st.markdown("### 壹.實驗目的")
+st.write("量測液體黏滯係數，實驗中改變液體溫度，紀錄黏滯系數與溫度變化的關係。")
+st.divider()
+
+st.markdown("### 貳.	儀器與設備")
+st.image("images/ex4_01.png")
+st.image("images/ex4_02.png")
+st.image("images/ex4_03.png",caption="實驗儀器構造實體圖")
+st.divider()
+st.markdown("#### [實驗儀器規格與尺寸]")
+st.image("images/ex4_04.png")
+st.divider()
+st.markdown("### 參.實驗原理 ")
+st.markdown("#### 黏滯力(viscosity)")
+st.write(" The principle of operation of the DV-E is to rotate a spindle (which is immersed in the test fluid) through a calibrated spring. The viscous drag of the fluid against the spindle is measured by the spring deflection. Spring deflection is measured with a rotary transducer which provides a torque signal. The measurement range of a DV-E (in centipoise or milliPascal seconds) is determined by the rotational speed of the spindle, the size and shape of the spindle, the container in which the spindle is rotating, and the full scale torque of the calibrated spring.")
+st.write("""
+黏滯係數分為兩種，一為絕對黏度(Absolute Viscosity)，單位為 P(poise)，1 P = 1 (g/cm)s = 100 cP；\n
+一為動力黏度(Kinematic Viscosity)，單位為 St(stoke)，1 St = 1 cm2/s = 100 cSt。\n
+又絕對黏度與動力黏度之關係為下式 \n
+centiPoises (cP) = centiStokes (cSt) x Density(g/cm³ )
+""")
+st.image("images/ex4_05.png")
+st.image("images/ex4_06.png")
+st.divider()
+st.write("固體：當一剪應力（shear stress）施於固體時，固體之變 形角度正比於施力，而變形不隨時間而變化。")
+st.image("images/ex4_07.png")
+st.write("流體（液體或氣體）：任一大小之剪應力施於流體時，流體 25 之變形角度將隨時間而增加。")
+st.image("images/ex4_08.png")
+st.write("由實驗得知: 固體在虎克定理（hooke’s law）下，變形角度正比於施與 之剪應力。")
+st.image("images/ex4_09.png")
+st.write("而流體之變形率（deformation rate）正比於施與之剪應力。")
+st.image("images/ex4_10.png")
+st.divider()
+st.markdown("#### 黏滯力之物理意義：")
+st.write("氣體:氣體之黏滯力是由氣體分子之間碰撞，造成 動量交換 而產生")
+st.image("images/ex4_11.png")
+st.write("液體:液體的分子以”長鍊”形式組成，液體之黏滯力乃由於長鍊間的凝聚力所造成")
+st.image("images/ex4_12.png")
+st.write("黏滯力與溫度之關係： 當溫度增加，氣體分子之能量與動量均增加，分子間之碰撞及動 量交換亦增加，故黏滯力增加。對於液體，分子鍊間之凝聚力隨溫度增加而破壞，黏滯力亦減小。")
+st.write("當馬達旋轉帶動轉子(Rotor)同步旋轉，轉子表面與液體間產生相對摩擦力，藉由簡單的換 算公式，轉換成讀取之數據(黏度值)。馬達與轉子之間最重要的介質，是一條經過校正的精密游絲。當液體黏度大於游絲彈性時，會帶動指針於刻度盤上產生一個偏角，即可得知樣本的絕對黏度。")
+st.divider()
+st.markdown("### 肆.實驗步驟")
+st.write("1.先將黏度計安裝完成並調整水平調整使水瓶氣泡至於黑圈中且打開黏度計電源")
+st.image("images/ex4_13.png")
+st.write("2.將恆溫箱加入所要測的樣品，開啟電源與冷凍開關將溫度設定 20℃")
+st.image("images/ex4_14.png")
+st.write("3.取一個 600ml 標準燒杯，將樣品加至轉針測量高度，黏度計準備好參數設定完成，將護架裝置上去。")
+st.image("images/ex4_15.png")
+st.write("4.將黏度計放置於測量樣品中，裝上轉針")
+st.image("images/ex4_16.png")
+st.write("5.設定轉針號碼與轉速並打開馬達開關鈕測量樣品黏度。帶黏度穩定後，讀取顯示幕數據並記錄，將冷凍開關關閉，再依序設定 40、60℃進行量測。")
+st.image("images/ex4_17.png")
+st.divider()
+st.markdown("### (一)轉針號碼設定說明")
+st.write("調整轉針設定轉針號碼(例:由 1 號變換至 3 號針)。")
+st.image("images/ex4_18.png")
+st.markdown("### (二)轉速設定說明")
+st.write("例:調整轉速設定轉速(例:由 12 變換至 30RPM)預設定其他轉速也同此法 選擇轉子換轉速組合，使扭矩百分比讀值在 10-100%範圍內。黏度大的樣品，使用面積小的 轉子換較低的轉速，對於低黏度的樣品，情況相反")
+st.image("images/ex4_19.png")
+st.divider()
+st.markdown("### 伍.	實驗結果與討論")
+st.write("水的溫度越高時，黏滯係數就越小，表示液體在高溫中，流動性越好，在低溫時流動性較差")
+st.image("images/ex4_20.png")
+st.write("在不同轉速下 所測的黏滯係數相差不多。 因為低黏滯係數在轉子表面與液面產生相對摩擦力在轉速不同，相差不大，所得到的絕對黏度 也較相近。")
+st.divider()
+
+
+
+
+
+# 在這裡添加實驗一的具體內容，如圖表、數據等
