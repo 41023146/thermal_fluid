@@ -12,7 +12,7 @@ st.markdown("## 熱流力實驗報告")
 
 
 st.markdown("##### 任 課 老 師 : 周榮源 教授 ")
-st.markdown("#####     班 級 : 四設計四甲 ")
+st.markdown("#####     班 級 : 四設四甲 ")
 st.markdown("#####   組 別 : 第六組 ")
 st.markdown("#####    組 員 :  ")
 st.markdown("#####            41023112 王啟騰 ")
