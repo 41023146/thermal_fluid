@@ -8,12 +8,12 @@ st.write("以墨汁流入透明之壓克力管流中，觀察流體在管路中�
 
 st.markdown("### 貳.儀器與設備")
 
-st.image("images\ex01_1.png", width=600)
+st.image("images/ex01_1.png", width=600)
 st.markdown("##### 圖一、雷諾數儀器構造")
-st.image("images\ex01_2.png", width=600)
+st.image("images/ex01_2.png", width=600)
 st.write("本套儀器是由一透明之壓克力製內外雙套管、機架台座、點滴液瓶、進出口閥、洩水閥及溢水管等和管路連接而成，詳細構造如圖一所示。")
 st.markdown("##### [實驗儀器規格與尺寸]")
-st.image("images\ex01_3.png", width=600)
+st.image("images/ex01_3.png", width=600)
 
 
 st.divider()
@@ -35,7 +35,7 @@ st.write("由上可知，Re 為一無因次參數，亦即其值不因使用之�
 
 
 st.write("現若稍微加快流速，使 Re 稍微加大，吾人可發現此層狀流體在管路下游 處成不穩定之擾動現象(圖 2b) ，此種上游層流，下游擾流之現象，稱為轉換區，現若再度加快流速，可發現整個流場呈擾動現象(圖 2c)，此即所謂的擾流。")
-st.image("images\ex01_4.png", width=600)
+st.image("images/ex01_4.png", width=600)
 st.markdown("##### 圖 2 層流、擾流及過渡區之流線圖")
 st.write("""
 一般而言，當 Re4000 時為擾流，2300<Re，流場為層流，Re>4000 時為擾流，2300<Re<4000 時則為轉換區。
@@ -45,7 +45,7 @@ st.write("""
 例:雷諾數實驗，測得 D = 2.5cm ,Q = 2 ℓ/min ,若水之 μ=10^(-3)N-s/m²，又 Q = 20 ℓ/min 時 Re = ? 而流場為層流或擾流?
 """)
 
-st.image("images\ex01_5.png", width=500)
+st.image("images/ex01_5.png", width=500)
 st.divider()
 st.markdown("### 肆、實驗步驟")
 
@@ -74,15 +74,15 @@ st.write("""
 1. 墨水加水稀釋（約 1：5）後裝入點滴液瓶內並裝置在儀器上端。
 2. 打開進水口閥及內管出水口閥，並將進出口流量控制在穩定流動狀態(即外管水位維持在某一固定位置不變)。
 """)
-st.image("images\ex01_6.png", width=500)
+st.image("images/ex01_6.png", width=500)
 
 st.write("3. 將墨水之控制閥打開讓墨水穩定的滴入套筒中。")
 
-st.image("images\ex01_7.png", width=400)
+st.image("images/ex01_7.png", width=400)
 
 st.write("4. 觀察墨水於管路中流動的情形(層流、紊流或於臨界區域)同時用 量杯(或水筒)量取流量並用碼錶確實測量時間(秒)將此等資料數據(流動情形、流量、測量時間)詳細計錄。")
 
-st.image("images\ex01_8.png", width=500)
+st.image("images/ex01_8.png", width=500)
 
 st.write("5.改變流量(由小到大)至少取五種不同的流量，以確實觀察由層流變化到完全紊流的情形。")
 st.write("""
@@ -100,7 +100,7 @@ st.write("""
 4. 依據實驗數據及觀察結果，本實驗和一般衆多書籍所敍述之數據是否符合？若不符合，你認爲原因出在那裡，應如何改善。
 """)
 
-st.image("images\ex01_9.png", width=800)
+st.image("images/ex01_9.png", width=800)
 st.divider()
 st.markdown("### 陸、測驗題")
 st.write(r"""

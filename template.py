@@ -20,4 +20,7 @@ st.markdown("#####            41023121 李承翰 ")
 st.markdown("#####            41023134 林建維 ")
 st.markdown("#####            41023146 洪偉陞 ")
 st.markdown("#####            41023147 紀閔翔 ")
+st.divider()
 
+st.write("網頁網址：https://thermalfluid-2rxfjxddewzzec29qxtvka.streamlit.app/")
+st.write("倉儲網址：https://github.com/41023146/thermal_fluid ")
