@@ -7,10 +7,10 @@ st.write("瞭解流體流動時，其動量變化與其承受力量間之關係�
 st.divider()
 st.markdown("### 貳.儀器與設備")
 st.write("水衝擊實驗係由一水循環泵、驅動馬達、儲水槽、實驗台架、柏登壓力錶、流量控制閥、水衝擊台一套(包括有透明壓克力套筒、噴嘴、各種形式之衝擊檔板、動量平衡器)、以及三角形堰(流量計)、和稱重器等構成整套儀器，詳細構造如下圖所示。")
-st.image("images\ex02_1.jpg", width=600)
-st.image("images\ex02_2.jpg", width=500)
+st.image("images\ex02_1.png")
+st.image("images\ex02_2.png", width=500)
 st.markdown("##### [實驗儀器規格與尺寸]")
-st.image("images\ex02_3.jpg", width=500)
+st.image("images\ex02_3.png", width=500)
 st.divider()
 st.markdown("### 參、實驗原理")
 st.write("衝擊試驗之主要目的在驗証動量方程式。吾人知道動量方程式屬於流體力學四大方程式之一，其應用頗為廣泛，如衝動式水輪機之分析、各型彎管、噴嘴之受力分析等均有賴動量方程式的計算。至於各式離心泵、衝動式水輪機等亦需藉重經由動量方式推導出之動量矩方程式來分析，故吾人希望藉重此一實驗來加深讀者對動量方程式應用在流體力學的控制體積時，一般可表為下列之形式")
@@ -30,11 +30,11 @@ $\frac{\partial}{\partial t} \int_{} cⱯ \vec{V_{\rho}} \,\cdot dⱯ$
 項為零，則(1)式簡化為
 $\vec{F_s} + \vec{F_B} = \frac{\partial}{\partial t} \int_{} cⱯ \vec{V_{\rho}} \,\cdot dⱯ$
 """)
-st.image("images\ex02_5.jpg", width=600)
-st.image("images\ex02_6.jpg", width=600)
+st.image("images\ex02_5.png", width=600)
+st.image("images\ex02_6.png", width=600)
 st.write("上式u，v，w 為x，y，z 方向之速度分量。")
 st.write(r"上面各式之 $\vec{V} \cdot \vec{A} = |V| \, |dA| \cos \theta$。由於 $d\vec{A}$之方向均定義為自控制體表面垂直向外之方向，故若吾人索取之控制表面均與流動方向垂直，則再流出之表面θ=180。，cosθ= -1。根據此一現象，則對一均勻流場而言，(3)式可表為最簡單形式為:")
-st.image("images\ex02_7.jpg", width=400)
+st.image("images\ex02_7.png", width=400)
 
 st.write("即X 方向之受力=流出之動量在X 方向之分量 – 流入之動量在X 方向之分量其他y、z方向之情形均同，在此不再重複。")
 st.write("為了驗證此一動量方程式，及加強同學對動量方程式的瞭解，本實驗設計了三種不同形狀的硯板，其理論上之受力情形，可用上面所述之簡單理論加以推導之。在推導其基本方程式的時候，吾人均做了如下的假設:")
@@ -48,31 +48,31 @@ I、 水平硯板
 衝擊水流作用在水平硯板之流動情形如圖(2)所示，此硯板在X 方向之受力由於左右對稱故其受力Fx 為0，在y 方向之受力Fy=流出之動量)y –流入之動量) y，其中流出之動量在y 方向之分量為0，流入之動量則為 $\rho Q V $，故y 方向之動量方程式式為
 
 """)
-st.image("images\ex02_8.jpg", width=200)
-st.image("images\ex02_9.jpg", width=700)
+st.image("images\ex02_8.png", width=200)
+st.image("images\ex02_9.png", width=700)
 st.write(r"""
 
 II、 圓錐形硯板
 
 圓錐形硯板受水流作用之情形如圖(3)所示，同樣的因在X 方向為對稱，故Fx=0,而在y 方向流出之動量為 $\rho Q V \cos \theta$，流入之動量$\rho Q V$ ，故
 """)
-st.image("images\ex02_10.jpg", width=700)
+st.image("images\ex02_10.png", width=700)
 st.write("""
 III、 半圓形硯板
 
 半圓形硯板受水流衝擊的情形如圖(4)所示，其水流在衝擊後成180。之折返，故流出之動量為負y 方向，而流入之動量則與前面所述想同，故得
 
 """)
-st.image("images\ex02_11.jpg", width=300)
+st.image("images\ex02_11.png", width=300)
 st.write("在(5)(6)(7)式中，若 以 kg/m³，Q 以m³/s，V 以 m/s 為單位，則計算所得之 F 單位為 [Fy] = [kg/m³] [m3³³/s] [m/s] = [kg×m/s²] = [N]")
-st.image("images\ex02_12.jpg", width=400)
+st.image("images\ex02_12.png", width=400)
 st.write(r"""
 在實驗時，流量 Q 可由水位計中測得，再配合噴嘴的口徑 D，則由 Q = AV 可求得V= Q/A，那麼由 (5) ~ (7)式，各型硯板的理論受力 F 理論 可輕易求得。
 (1) 圖 5 為石硯台之衝擊部分簡圖。在水流末啟動時，硯板因受彈簧作用位於最高點 A，此時加一預付荷 W，(約 350 ~ 450gw )於盤上，使硯板下降至 B 點。
 (2) 啟動水流，此時硯板將受水衝擊推回 A 點，於是吾人再加負荷重於盤上直至將硯板壓回B 點，此時盤上之負荷 W2 稱為總負荷。
 (3) 顯然的，總負荷 W2 較預負荷 W1 所增加之部份即為水的衝擊力，也就是 F 實際 = W2 - W1 ，由實驗所得之實際衝擊力與理論衝擊力之比較，可得實驗誤差 E (%) 為$E (\%) = \left| \frac{F_{\text{理}} - F_{\text{實}}}{F_{\text{理}}} \right| \times 100\%$
 """)
-st.image("images\ex02_13.jpg", width=300)
+st.image("images\ex02_13.png", width=300)
 
 st.write("例:某生在實驗中，以 D = 5mm 之噴嘴衝及平面形硯板，測得之預負荷 W1 =450gw，總負荷 W2 = 1700gw，流量 Q 為 3l/min，是求(1)實際衝擊力(2)理論衝擊力(3)實驗誤差。")
 st.write(r"""
@@ -158,11 +158,11 @@ st.write("""
 8.	推導 ρQV 所得到之單位：	牛頓 (N)	。〈取 ρ 爲 kg/m3,Q 爲m3/s, V 爲m/s〉
 9.	預負荷 300gw,總負荷 2800gw,Q=30l /min ,噴嘴 5mm 作用在半圓形硯板,則實際負荷為		N ,理論衝擊力	N,誤差爲	％。
 """)
-st.image("images\ex02_14.jpg", width=800)
+st.image("images\ex02_14.png", width=800)
 st.markdown("### 實際操作步驟")
-st.image("images\ex02_15.jpg", width=800)
-st.image("images\ex02_16.jpg", width=800)
-st.image("images\ex02_17.jpg", width=800)
-st.image("images\ex02_18.jpg", width=800)
+st.image("images\ex02_15.png", width=800)
+st.image("images\ex02_16.png", width=800)
+st.image("images\ex02_17.png", width=800)
+st.image("images\ex02_18.png", width=800)
 # 提示用戶
 
