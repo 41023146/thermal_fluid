@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="熱流力實驗", layout="wide")
 
-
+st.set_page_config(page_title="熱流力實驗-第六組", layout="wide")
 st.markdown("# 國立虎尾科技大學機械設計工程系")
 
 st.markdown("## 熱流力實驗報告")
